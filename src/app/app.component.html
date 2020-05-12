@@ -1,3 +1,24 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <!-- USO CON SPLIT PANE -->
+  <!-- <ion-split-pane contentId="main" when="md" >
+    <ion-menu contentId="main" type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+    </ion-menu>
+    <ion-router-outlet id="main"></ion-router-outlet>
+  </ion-split-pane> -->
+
+
+ 
+
+<!--  USO NORMAL-->
+
+
+  <app-menu></app-menu> 
+  <!-- para usar solo el menu sin split pane -->
+  <ion-router-outlet id="main"></ion-router-outlet> 
+  <!-- para usar solo con el menu sin split pane -->
 </ion-app>
